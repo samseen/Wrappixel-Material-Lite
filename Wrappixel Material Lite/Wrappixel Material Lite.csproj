@@ -801,6 +801,7 @@
     <Content Include="Views\Shared\_LeftSideBar.cshtml" />
     <Content Include="Views\Home\PagesBlank.cshtml" />
     <Content Include="Views\Home\PagesProfile.cshtml" />
+    <Content Include="Views\Home\TableBasic.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
