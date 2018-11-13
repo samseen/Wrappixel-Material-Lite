@@ -18,6 +18,11 @@ namespace Wrappixel_Material_Lite.Controllers
             return View();
         }
 
+        public ActionResult PagesProfile()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
