@@ -13,12 +13,8 @@
     <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="~/Assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- chartist CSS -->
-    <link href="~/Assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
-    <link href="~/Assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
-    <link href="~/Assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
-    <!--This page css - Morris CSS -->
-    <link href="~/Assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Render Partial CSS Files-->
+    @RenderSection("Styles", false)
     <!-- Custom CSS -->
     <link href="~/Assets/css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
@@ -103,16 +99,8 @@
     <!--Custom JavaScript -->
     <script src="~/Assets/js/custom.min.js"></script>
     <!-- ============================================================== -->
-    <!-- This page plugins -->
-    <!-- ============================================================== -->
-    <!-- chartist chart -->
-    <script src="~/Assets/plugins/chartist-js/dist/chartist.min.js"></script>
-    <script src="~/Assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
-    <!--c3 JavaScript -->
-    <script src="~/Assets/plugins/d3/d3.min.js"></script>
-    <script src="~/Assets/plugins/c3-master/c3.min.js"></script>
-    <!-- Chart JS -->
-    <script src="~/Assets/js/dashboard1.js"></script>
+    <!-- Custom Scripts specific to pages-->
+    @RenderSection("scripts", required: false)
 </body>
 
 </html>
