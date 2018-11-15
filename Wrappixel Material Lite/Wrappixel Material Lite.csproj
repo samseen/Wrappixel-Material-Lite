@@ -804,6 +804,7 @@
     <Content Include="Views\Home\TableBasic.cshtml" />
     <Content Include="Views\Home\Icons.cshtml" />
     <Content Include="Views\Home\NotFoundPage.cshtml" />
+    <Content Include="Views\Home\GoogleMap.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
